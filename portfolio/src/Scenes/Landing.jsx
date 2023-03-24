@@ -53,7 +53,8 @@ return(
                             Ojo
                   </span> 
                 </p>
-                <p className="mt-10 mb-7 text-sm text-centered md:text-start">
+                <p className="mt-5 md:mt-10 text-md text-left md:font-bold text-yellow">FRONTEND DEVELOPER/TECHNICAL WRITER</p>
+                <p className="mt-10 mb-7 text-xl text-center md:text-start">
                 I am a self-taught frontend developer. My current tech stack includes HTML, CSS, JavaScript, and React. 
                 I create memorable web experiences by combining art and technology, I Loves working with people to do things bigger than he could accomplish alone.
 I am motivated by big problems, and I think you’ve got some here that I can help solve.

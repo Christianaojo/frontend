@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-40 pb-24 md:mt-20">
+    <section id="projects" className="md:pt-40 mt-10 pb-24 md:mt-20">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -32,7 +32,7 @@ const Projects = () => {
       {/* PROJECTS */}
               
           {/**project 1 */}
-          <div className="md:flex md:space-between md:mx-8 gap-32 rounded-xl bg-dark-purple m-5 w-full h-100">
+          <div className="md:flex md:space-between md:mx-8 gap-32 rounded-xl bg-dark-purple w-full mt-5 h-100">
           
           <img src="../assets/project-1.jpeg" alt="projectTitle"  className=" md:h-80 md:mt-10 md:ml-10 mb-10 rounded-xl"/>       
       <div className= "md:pr-4 md:-ml-4">
@@ -65,7 +65,7 @@ const Projects = () => {
              </div>
 
        {/**project 2 */}
-       <div className="md:flex md:space-between md:mx-8 gap-32 md:mt-20 rounded-xl bg-dark-purple m-5 w-full h-100">
+       <div className="md:flex md:space-between md:mx-8 gap-32 md:mt-20 rounded-xl bg-dark-purple mt-5 w-full h-100">
        <img src="../assets/project-2.jpeg" alt="projectTitle"  className="md:order-2 md:h-80 md:mt-10 md:ml-10 mb-10 rounded-xl"/>       
 
       <div className= "md:pr-4 md:-ml-4">
@@ -95,7 +95,7 @@ const Projects = () => {
       </div>
              </div>
                   {/**project 3 */}
-          <div className="md:flex md:space-between md:mt-20 md:mx-8 gap-32 rounded-xl bg-dark-purple m-5 w-full h-100">
+          <div className="md:flex md:space-between md:mt-20 md:mx-8 gap-32 rounded-xl bg-dark-purple mt-5 w-full h-100">
           
           <img src="../assets/project-3.jpeg" alt="projectTitle"  className=" md:h-80 md:mt-10 md:ml-10 mb-10 rounded-xl"/>       
       <div className= "md:pr-4 md:-ml-4">
